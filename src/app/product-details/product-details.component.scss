@@ -1,0 +1,875 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+}
+.left {
+  width: 1086px;
+  height: 70px;
+  min-width: 1086px;
+  min-height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.auto-shop_logo {
+  width: 16.6%;
+  min-width: 180px;
+  min-height: 70px;
+  object-fit: cover;
+  height: 100%;
+  position: relative;
+}
+.right {
+  width: 124px;
+  height: 36px;
+  min-height: 36px;
+  right: 16px;
+  bottom: calc(50% - 18px);
+  min-width: 124px;
+  position: absolute;
+  justify-content: space-between;
+}
+.group {
+  width: 22.2%;
+  min-width: 319px;
+  min-height: 140px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+.auto-deals_logo {
+  width: 33.2%;
+  height: calc(35.7% - 28px);
+  min-width: 106px;
+  min-height: 22px;
+  object-fit: cover;
+  position: relative;
+}
+.body {
+  width: 96.7%;
+  height: 1809px;
+  min-height: 1809px;
+  margin: 48px 24px 0;
+  min-width: 1392px;
+  justify-content: space-between;
+  position: relative;
+}
+.breadcrumb {
+  width: 798px;
+  min-width: 798px;
+  height: 28px;
+  min-height: 28px;
+  justify-content: space-between;
+  position: relative;
+}
+.product {
+  width: 79.7%;
+  height: calc(50.2% - 400px);
+  min-width: 1109px;
+  min-height: 508px;
+  justify-content: space-between;
+  position: relative;
+}
+.thumbs {
+  width: 100px;
+  height: 316px;
+  min-height: 316px;
+  min-width: 100px;
+  justify-content: space-between;
+  position: relative;
+}
+.image-large {
+  width: calc(54.8% - 100px);
+  min-width: 508px;
+  min-height: 508px;
+  background-image: url("/assets/d35690eabc22dfd929ac9b67a3152b3306b3de05.png");
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+.product-details {
+  width: calc(50.6% - 100px);
+  min-width: 461px;
+  min-height: 508px;
+  height: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+.product-name {
+  width: 154px;
+  min-width: 154px;
+  height: max-content;
+  position: relative;
+}
+.ratings {
+  width: 276px;
+  min-width: 276px;
+  height: 28px;
+  min-height: 28px;
+  justify-content: space-between;
+  position: relative;
+}
+.price {
+  width: 105px;
+  min-width: 105px;
+  height: max-content;
+  position: relative;
+}
+.sku {
+  width: 324px;
+  min-width: 324px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.delivery {
+  width: 158px;
+  min-width: 158px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.left-column {
+  width: 253px;
+  height: 344px;
+  min-height: 344px;
+  min-width: 253px;
+  justify-content: space-between;
+  position: relative;
+}
+.product-specs {
+  width: 225px;
+  min-width: 225px;
+  height: max-content;
+  position: relative;
+}
+.row-1 {
+  width: 93.7%;
+  min-width: 237px;
+  height: calc(16.299999999999997% - 28px);
+  margin: 0 0 0 8px;
+  min-height: 28px;
+  justify-content: space-between;
+  position: relative;
+}
+.right_1 {
+  width: 129px;
+  min-width: 129px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.group_1 {
+  width: 34.4%;
+  min-width: 87px;
+  padding: 0 0 0 8px;
+  min-height: 44px;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+.group_2 {
+  width: 65.6%;
+  min-width: 166px;
+  padding: 0 -14px 0 36px;
+  min-height: 44px;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+.right_2 {
+  width: 60px;
+  min-width: 60px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.row-3 {
+  width: 62.8%;
+  min-width: 159px;
+  height: calc(16.299999999999997% - 28px);
+  margin: 0 0 0 8px;
+  min-height: 28px;
+  justify-content: space-between;
+  position: relative;
+}
+.left_1 {
+  width: 56px;
+  min-width: 56px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.right_3 {
+  width: 47px;
+  min-width: 47px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.group_3 {
+  width: 32.6%;
+  min-width: 82px;
+  padding: 0 0 0 8px;
+  min-height: 44px;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+.left_2 {
+  width: 39px;
+  min-width: 39px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.group_4 {
+  width: 67.4%;
+  min-width: 170px;
+  padding: 0 -26px 0 0;
+  justify-content: center;
+  min-height: 44px;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+.row-5 {
+  width: 58.5%;
+  min-width: 148px;
+  height: calc(16.299999999999997% - 28px);
+  margin: 0 0 0 8px;
+  min-height: 28px;
+  justify-content: space-between;
+  position: relative;
+}
+.left_3 {
+  width: 121px;
+  min-width: 121px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.right_4 {
+  width: 36px;
+  min-width: 36px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.left_4 {
+  width: 107px;
+  min-width: 107px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.right_5 {
+  width: 10px;
+  min-width: 10px;
+  margin: 0 0 0 8px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.right-column {
+  width: calc(97.1% - 253px);
+  height: 237px;
+  min-height: 237px;
+  min-width: 1099px;
+  position: relative;
+}
+.product-description {
+  width: 200px;
+  min-width: 200px;
+  height: max-content;
+  position: relative;
+}
+.row-1_1 {
+  width: 609px;
+  min-width: 609px;
+  height: 28px;
+  min-height: 28px;
+  justify-content: space-between;
+  position: relative;
+}
+.text {
+  width: 94.7%;
+  min-width: 649px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.row-2 {
+  width: 765px;
+  min-width: 765px;
+  height: 28px;
+  min-height: 28px;
+  justify-content: space-between;
+  position: relative;
+}
+.row-3_1 {
+  width: 764px;
+  min-width: 764px;
+  height: 28px;
+  min-height: 28px;
+  justify-content: space-between;
+  position: relative;
+}
+.title {
+  width: 271px;
+  min-width: 271px;
+  height: max-content;
+  position: relative;
+}
+.sitemap {
+  width: 1146px;
+  height: 116px;
+  min-width: 1146px;
+  right: calc(50% - 573px);
+  bottom: 74px;
+  min-height: 116px;
+  position: absolute;
+  justify-content: space-between;
+}
+.column-1 {
+  width: 17.6%;
+  min-width: 202px;
+  min-height: 116px;
+  height: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+.contact-us {
+  width: 32.7%;
+  min-width: 66px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.post-code {
+  width: 62.9%;
+  min-width: 143px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.phone-number {
+  width: 45%;
+  min-width: 91px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.phone {
+  width: 54%;
+  min-width: 114px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.column-2 {
+  width: 10.8%;
+  min-width: 124px;
+  height: 89.7%;
+  min-height: 104px;
+  margin: 0 0 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.help {
+  width: 22.6%;
+  min-width: 28px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.faq {
+  width: 21%;
+  min-width: 29px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.returns {
+  width: 39.5%;
+  min-width: 55px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.shippingreturns {
+  width: 90.3%;
+  min-width: 128px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.column-3 {
+  width: 8.1%;
+  min-width: 93px;
+  height: 89.7%;
+  min-height: 104px;
+  margin: 0 0 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.about-us {
+  width: 60.2%;
+  min-width: 56px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.faq_1 {
+  width: 91.4%;
+  min-width: 99px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.couponsdiscounts {
+  width: 50.5%;
+  min-width: 56px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.shippingreturns_1 {
+  width: 55.9%;
+  min-width: 58px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.column-4 {
+  width: 9.9%;
+  min-width: 114px;
+  height: 89.7%;
+  min-height: 104px;
+  margin: 0 0 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.faq_2 {
+  width: 58.8%;
+  min-width: 77px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.couponsdiscounts_1 {
+  width: 62.3%;
+  min-width: 84px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.column-5 {
+  width: 11.6%;
+  min-width: 133px;
+  height: 89.7%;
+  min-height: 104px;
+  margin: 0 0 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.blog {
+  width: 21.1%;
+  min-width: 28px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.faq_3 {
+  width: 87.2%;
+  min-width: 136px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.returns_1 {
+  width: 62.4%;
+  min-width: 95px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.shippingreturns_2 {
+  width: 85%;
+  min-width: 133px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.items {
+  width: 648px;
+  height: 20px;
+  min-width: 648px;
+  min-height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+.copyright-2021-auto {
+  width: 53.9%;
+  min-width: 409px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.terms-of-use {
+  width: 12.3%;
+  min-width: 93px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.privacy-policy {
+  width: 13.1%;
+  min-width: 96px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.site-map {
+  width: 8.3%;
+  min-width: 61px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.header {
+  height: 72px;
+  padding: 1px 0 1px 16px;
+  min-height: 72px;
+  background-color: rgba(255, 255, 255, 1);
+  min-width: 1440px;
+  width: 100%;
+  position: relative;
+}
+.subheader {
+  height: 140px;
+  min-height: 140px;
+  justify-content: center;
+  min-width: 1440px;
+  width: 100%;
+  position: relative;
+}
+.row-6 {
+  height: calc(29.099999999999994% - 28px);
+  padding: 8px 0 0 8px;
+  min-height: 72px;
+  min-width: 253px;
+  background-color: rgba(0, 0, 0, 0.04);
+  width: 100%;
+  position: relative;
+}
+.group_5 {
+  height: 16.9%;
+  min-width: 1099px;
+  min-height: 40px;
+  width: 100%;
+  position: relative;
+}
+.group_6 {
+  height: 83.1%;
+  min-height: 197px;
+  padding: 12px 0 0;
+  justify-content: space-evenly;
+  min-width: 1099px;
+  width: 100%;
+  position: relative;
+}
+.also-purchased-cards {
+  height: calc(65.7% - 400px);
+  min-width: 1392px;
+  min-height: 789px;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+.footer {
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.04);
+  justify-content: center;
+  min-width: 1440px;
+  align-items: center;
+  min-height: 50px;
+  width: 100%;
+}
+.text_1 {
+  min-width: 363px;
+  margin: 8px 0 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: max-content;
+  position: relative;
+}
+.text_2 {
+  min-width: 821px;
+  width: 95.8%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.text_3 {
+  min-width: 827px;
+  width: 95.8%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.street {
+  min-width: 232px;
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.couponsdiscounts_2 {
+  min-width: 142px;
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.shippingreturns_3 {
+  min-width: 134px;
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.couponsdiscounts_3 {
+  min-width: 155px;
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.text_4 {
+  width: 81px;
+  min-width: 81px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.text_5 {
+  width: 51px;
+  min-width: 51px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.text_6 {
+  width: 44.7%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.row {
+  height: 344px;
+  min-height: 344px;
+  min-width: 1392px;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+.group_7 {
+  height: calc(20.900000000000006% - 28px);
+  min-width: 253px;
+  background-color: rgba(0, 0, 0, 0.04);
+  min-height: 44px;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+.description {
+  min-width: 461px;
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.returns_2 {
+  min-width: 105px;
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.background {
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 2316px;
+  min-width: 1440px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.group_8 {
+  height: 31.6%;
+  min-height: 100px;
+  min-width: 100px;
+  background-image: url("/assets/d35690eabc22dfd929ac9b67a3152b3306b3de05.png");
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+.services {
+  min-width: 51px;
+}
+.text_7 {
+  width: 8px;
+  min-width: 8px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.group_9 {
+  width: 24.6%;
+  min-width: 342px;
+  justify-content: flex-end;
+  min-height: 789px;
+  height: 100%;
+  position: relative;
+}
+.returns_3 {
+  min-width: 56px;
+}
+.text_8 {
+  min-width: 1099px;
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.group_10 {
+  min-height: 2316px;
+  min-width: 1440px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.group_11 {
+  min-width: 326px;
+  padding: 0 8px;
+  min-height: 40px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.h5 {
+  min-width: 310px;
+  width: 100%;
+  height: max-content;
+  position: relative;
+}
+.body-content {
+  min-height: 50px;
+  min-width: 50px;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.hyperlink {
+  position: relative;
+}
+.auto-body-button {
+  width: 14.5%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.lighting-button {
+  width: 8.7%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.interior {
+  width: 8.8%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.exterior {
+  width: 9%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.quantity-select {
+  width: 21.7%;
+  position: relative;
+  height: max-content;
+}
+.button {
+  width: 16.8%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.user-input {
+  width: 100%;
+  position: relative;
+  height: max-content;
+}
+.button_1 {
+  width: 90px;
+  height: max-content;
+}
+.button_2 {
+  position: relative;
+}
+.icon {
+  margin: 2px 0;
+  position: relative;
+  min-width: min-content;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+.icon_1 {
+  margin: 0 0 4px;
+  position: relative;
+  min-width: min-content;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+.icon_2 {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+.stock-badge {
+  position: relative;
+  width: max-content;
+  height: max-content;
+}
+.card {
+  position: relative;
+  width: 100%;
+  height: max-content;
+}
+.card_1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: max-content;
+}
+.row_1 {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}

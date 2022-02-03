@@ -1,0 +1,545 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+}
+.left {
+  width: 1086px;
+  height: 70px;
+  min-width: 1086px;
+  min-height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.auto-shop_logo {
+  width: 16.6%;
+  min-width: 180px;
+  object-fit: cover;
+  min-height: 70px;
+  height: 100%;
+  position: relative;
+}
+.right {
+  width: 124px;
+  height: 36px;
+  min-height: 36px;
+  right: 16px;
+  bottom: calc(50% - 18px);
+  min-width: 124px;
+  position: absolute;
+  justify-content: space-between;
+}
+.group {
+  width: 79.2%;
+  min-height: 240px;
+  justify-content: center;
+  min-width: 1140px;
+  height: 100%;
+  position: relative;
+}
+.title {
+  width: 569px;
+  min-width: 569px;
+  height: max-content;
+  position: relative;
+}
+.text {
+  width: 537px;
+  min-width: 537px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  height: max-content;
+  position: relative;
+}
+.search {
+  width: 1140px;
+  height: 86.2%;
+  background-color: rgba(255, 255, 255, 1);
+  min-width: 1140px;
+  min-height: 50px;
+  justify-content: space-between;
+  position: relative;
+}
+.popular-categories {
+  width: 191px;
+  min-width: 191px;
+  height: max-content;
+  position: relative;
+}
+.featured-products {
+  width: 187px;
+  min-width: 187px;
+  height: max-content;
+  position: relative;
+}
+.sitemap {
+  width: 1146px;
+  height: 116px;
+  min-width: 1146px;
+  right: calc(50% - 573px);
+  bottom: 74px;
+  min-height: 116px;
+  position: absolute;
+  justify-content: space-between;
+}
+.column-1 {
+  width: 17.6%;
+  min-width: 202px;
+  min-height: 116px;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+.contact-us {
+  width: 32.7%;
+  min-width: 66px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.post-code {
+  width: 62.9%;
+  min-width: 143px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.phone-number {
+  width: 45%;
+  min-width: 91px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.phone {
+  width: 54%;
+  min-width: 114px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.column-2 {
+  width: 10.8%;
+  min-width: 124px;
+  height: 89.7%;
+  min-height: 104px;
+  margin: 0 0 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.help {
+  width: 22.6%;
+  min-width: 28px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.faq {
+  width: 21%;
+  min-width: 29px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.returns {
+  width: 39.5%;
+  min-width: 55px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.shippingreturns {
+  width: 90.3%;
+  min-width: 128px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.column-3 {
+  width: 8.1%;
+  min-width: 93px;
+  height: 89.7%;
+  min-height: 104px;
+  margin: 0 0 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.about-us {
+  width: 60.2%;
+  min-width: 56px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.faq_1 {
+  width: 91.4%;
+  min-width: 99px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.couponsdiscounts {
+  width: 50.5%;
+  min-width: 56px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.shippingreturns_1 {
+  width: 55.9%;
+  min-width: 58px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.column-4 {
+  width: 9.9%;
+  min-width: 114px;
+  height: 89.7%;
+  min-height: 104px;
+  margin: 0 0 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.faq_2 {
+  width: 58.8%;
+  min-width: 77px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.couponsdiscounts_1 {
+  width: 62.3%;
+  min-width: 84px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.column-5 {
+  width: 11.6%;
+  min-width: 133px;
+  height: 89.7%;
+  min-height: 104px;
+  margin: 0 0 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.blog {
+  width: 21.1%;
+  min-width: 28px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.faq_3 {
+  width: 87.2%;
+  min-width: 136px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.returns_1 {
+  width: 62.4%;
+  min-width: 95px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.shippingreturns_2 {
+  width: 85%;
+  min-width: 133px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.items {
+  width: 648px;
+  height: 20px;
+  min-width: 648px;
+  min-height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+.copyright-2021-auto {
+  width: 53.9%;
+  min-width: 409px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.terms-of-use {
+  width: 12.3%;
+  min-width: 93px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.privacy-policy {
+  width: 13.1%;
+  min-width: 96px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.site-map {
+  width: 8.3%;
+  min-width: 61px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.header {
+  height: 72px;
+  min-height: 72px;
+  padding: 1px 0 1px 16px;
+  background-color: rgba(255, 255, 255, 1);
+  min-width: 1440px;
+  width: 100%;
+  position: relative;
+}
+.subheader {
+  height: 240px;
+  min-height: 240px;
+  justify-content: center;
+  min-width: 1440px;
+  width: 100%;
+  position: relative;
+}
+.group_1 {
+  height: 31.7%;
+  min-height: 76px;
+  min-width: 1140px;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.group_2 {
+  height: 22.5%;
+  min-height: 54px;
+  padding: 0 0 -4px;
+  min-width: 1140px;
+  justify-content: flex-end;
+  width: 100%;
+  position: relative;
+}
+.body {
+  height: 1581px;
+  min-height: 1581px;
+  margin: 48px 0 0;
+  width: 1024px;
+  min-width: 1024px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.popular-cards {
+  height: 608px;
+  width: 1024px;
+  min-width: 1024px;
+  min-height: 608px;
+  justify-content: space-between;
+  position: relative;
+}
+.featured-cards {
+  height: 789px;
+  width: 1024px;
+  min-width: 1024px;
+  min-height: 789px;
+  justify-content: space-between;
+  position: relative;
+}
+.footer {
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.04);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  min-width: 1440px;
+  min-height: 50px;
+  width: 100%;
+}
+.street {
+  min-width: 232px;
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.couponsdiscounts_2 {
+  min-width: 142px;
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.returns_2 {
+  min-width: 105px;
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.services {
+  min-width: 51px;
+  width: 44.7%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.shippingreturns_3 {
+  min-width: 134px;
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.couponsdiscounts_3 {
+  min-width: 155px;
+  width: 100%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.returns_3 {
+  width: 44.7%;
+  min-width: 56px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.group_3 {
+  padding: 0 0 24px;
+  min-height: 2196px;
+  min-width: 1440px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.background {
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 2196px;
+  min-width: 1440px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.home {
+  min-height: 2196px;
+  min-width: 1440px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.group_4 {
+  min-height: 608px;
+  width: 32.8%;
+  min-width: 336px;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+.group_5 {
+  min-height: 789px;
+  justify-content: flex-end;
+  width: 32.8%;
+  min-width: 336px;
+  height: 100%;
+  position: relative;
+}
+.group_6 {
+  align-items: center;
+}
+.group_7 {
+  min-width: 320px;
+  padding: 0 8px;
+  min-height: 40px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.h5 {
+  min-width: 304px;
+  width: 100%;
+  height: max-content;
+  position: relative;
+}
+.body-content {
+  min-height: 50px;
+  min-width: 50px;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.auto-body-button {
+  width: 14.5%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.lighting-button {
+  width: 8.7%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.interior {
+  width: 8.8%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.exterior {
+  width: 9%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.button {
+  width: 16.8%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.user-input {
+  width: 13.2%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.select {
+  width: 24.6%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.button_1 {
+  width: 89px;
+  height: max-content;
+}
+.button_2 {
+  position: relative;
+}
+.card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: max-content;
+}
+.card_1 {
+  position: relative;
+  width: 100%;
+  height: max-content;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,579 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+}
+.left {
+  width: 1086px;
+  height: 70px;
+  min-width: 1086px;
+  min-height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.auto-shop_logo {
+  width: 16.6%;
+  min-width: 180px;
+  min-height: 70px;
+  object-fit: cover;
+  height: 100%;
+  position: relative;
+}
+.right {
+  width: 124px;
+  right: 16px;
+  bottom: calc(50% - 18px);
+  min-width: 124px;
+  position: absolute;
+  height: 36px;
+  min-height: 36px;
+  justify-content: space-between;
+}
+.group {
+  width: 22.2%;
+  min-width: 319px;
+  min-height: 140px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+.auto-deals_logo {
+  width: 33.2%;
+  height: calc(35.7% - 28px);
+  min-width: 106px;
+  min-height: 22px;
+  object-fit: cover;
+  position: relative;
+}
+.filters {
+  width: 220px;
+  height: 1052px;
+  min-width: 220px;
+  min-height: 1052px;
+  padding: 0 0 0 24px;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.category-label {
+  width: 33.7%;
+  min-width: 66px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.category-label-copy {
+  width: 23%;
+  min-width: 45px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.peice-label {
+  width: 18.9%;
+  min-width: 37px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.group_1 {
+  width: calc(96.7% - 220px);
+  padding: 7px 0 0;
+  min-width: 1172px;
+  min-height: 1706px;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+.newest-arrivals {
+  width: 160px;
+  min-width: 160px;
+  height: max-content;
+  position: relative;
+}
+.right_1 {
+  width: 305px;
+  min-width: 305px;
+  right: 0;
+  top: 0;
+  position: absolute;
+  height: 36px;
+  min-height: 36px;
+  align-items: center;
+  justify-content: space-between;
+}
+.of-202-results {
+  width: 52.5%;
+  min-width: 175px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.cards {
+  width: 1040px;
+  height: 1595px;
+  min-width: 1040px;
+  min-height: 1595px;
+  justify-content: space-between;
+  position: relative;
+}
+.pages {
+  width: 444px;
+  min-width: 444px;
+  height: 36px;
+  min-height: 36px;
+  justify-content: space-between;
+  position: relative;
+}
+.sitemap {
+  width: 1146px;
+  height: 116px;
+  min-width: 1146px;
+  right: calc(50% - 573px);
+  bottom: 74px;
+  min-height: 116px;
+  position: absolute;
+  justify-content: space-between;
+}
+.column-1 {
+  width: 17.6%;
+  min-width: 202px;
+  min-height: 116px;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+.contact-us {
+  width: 32.7%;
+  min-width: 66px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.post-code {
+  width: 62.9%;
+  min-width: 143px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.phone-number {
+  width: 45%;
+  min-width: 91px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.phone {
+  width: 54%;
+  min-width: 114px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.column-2 {
+  width: 10.8%;
+  min-width: 124px;
+  height: 89.7%;
+  min-height: 104px;
+  margin: 0 0 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.help {
+  width: 22.6%;
+  min-width: 28px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.faq {
+  width: 21%;
+  min-width: 29px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.returns {
+  width: 39.5%;
+  min-width: 55px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.shippingreturns {
+  width: 90.3%;
+  min-width: 128px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.column-3 {
+  width: 8.1%;
+  min-width: 93px;
+  height: 89.7%;
+  min-height: 104px;
+  margin: 0 0 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.about-us {
+  width: 60.2%;
+  min-width: 56px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.faq_1 {
+  width: 91.4%;
+  min-width: 99px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.couponsdiscounts {
+  width: 50.5%;
+  min-width: 56px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.shippingreturns_1 {
+  width: 55.9%;
+  min-width: 58px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.column-4 {
+  width: 9.9%;
+  min-width: 114px;
+  height: 89.7%;
+  min-height: 104px;
+  margin: 0 0 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.faq_2 {
+  width: 58.8%;
+  min-width: 77px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.couponsdiscounts_1 {
+  width: 62.3%;
+  min-width: 84px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.column-5 {
+  width: 11.6%;
+  min-width: 133px;
+  height: 89.7%;
+  min-height: 104px;
+  margin: 0 0 12px;
+  justify-content: space-between;
+  position: relative;
+}
+.blog {
+  width: 21.1%;
+  min-width: 28px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.faq_3 {
+  width: 87.2%;
+  min-width: 136px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.returns_1 {
+  width: 62.4%;
+  min-width: 95px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.shippingreturns_2 {
+  width: 85%;
+  min-width: 133px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.items {
+  width: 648px;
+  height: 20px;
+  min-width: 648px;
+  min-height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+.copyright-2021-auto {
+  width: 53.9%;
+  min-width: 409px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.terms-of-use {
+  width: 12.3%;
+  min-width: 93px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.privacy-policy {
+  width: 13.1%;
+  min-width: 96px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.site-map {
+  width: 8.3%;
+  min-width: 61px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.header {
+  height: 72px;
+  min-height: 72px;
+  padding: 1px 0 1px 16px;
+  background-color: rgba(255, 255, 255, 1);
+  min-width: 1440px;
+  width: 100%;
+  position: relative;
+}
+.subheader {
+  height: 140px;
+  min-height: 140px;
+  justify-content: center;
+  min-width: 1440px;
+  width: 100%;
+  position: relative;
+}
+.body {
+  height: 1706px;
+  margin: 48px 0 0;
+  min-height: 1706px;
+  min-width: 1440px;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+.footer {
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.04);
+  bottom: 0;
+  left: 0;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  min-width: 1440px;
+  min-height: 50px;
+  width: 100%;
+}
+.text {
+  min-width: 363px;
+  margin: 8px 0 0;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 100%;
+  height: max-content;
+  position: relative;
+}
+.street {
+  min-width: 232px;
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: max-content;
+  position: relative;
+}
+.couponsdiscounts_2 {
+  min-width: 142px;
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: max-content;
+  position: relative;
+}
+.returns_2 {
+  min-width: 105px;
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: max-content;
+  position: relative;
+}
+.services {
+  min-width: 51px;
+  width: 44.7%;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.shippingreturns_3 {
+  min-width: 134px;
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: max-content;
+  position: relative;
+}
+.couponsdiscounts_3 {
+  min-width: 155px;
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: max-content;
+  position: relative;
+}
+.returns_3 {
+  width: 44.7%;
+  min-width: 56px;
+  color: rgba(0, 0, 0, 1);
+  height: max-content;
+  position: relative;
+}
+.row {
+  min-width: 1172px;
+  height: 36px;
+  min-height: 36px;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.group_2 {
+  width: 32.3%;
+  min-width: 336px;
+  padding: 0;
+  min-height: 1595px;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+.background {
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 2228px;
+  min-width: 1440px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.hyperlink {
+  margin: 0 0 0 16px;
+  position: relative;
+}
+.group_3 {
+  min-height: 2228px;
+  min-width: 1440px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.group_4 {
+  min-width: 320px;
+  padding: 0 8px;
+  height: 100%;
+  min-height: 40px;
+  width: 100%;
+  position: relative;
+}
+.h5 {
+  min-width: 304px;
+  width: 100%;
+  height: max-content;
+  position: relative;
+}
+.body-content {
+  min-height: 50px;
+  min-width: 50px;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.auto-body-button {
+  width: 14.5%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.lighting-button {
+  width: 8.7%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.interior {
+  width: 8.8%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.exterior {
+  width: 9%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.sort-by-button {
+  width: 39.7%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.previous-button {
+  width: 27%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.pages-button-group {
+  width: 54.1%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.next-button {
+  width: 18.9%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.button {
+  width: 16.8%;
+  min-width: min-content;
+  position: relative;
+  height: max-content;
+}
+.button_1 {
+  width: 89px;
+  height: max-content;
+}
+.button_2 {
+  position: relative;
+}
+.list {
+  position: relative;
+  width: 87.8%;
+}
+.card {
+  position: relative;
+  width: 100%;
+  height: max-content;
+}
+.row_1 {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
